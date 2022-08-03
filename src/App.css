@@ -1,0 +1,53 @@
+button.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  /* margin: 0;
+  padding: 0; */
+  text-decoration: none;
+}
+.student {
+  background-color: #b0c4de;
+}
+#login {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+#registerForm {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+#toggleRow {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#checkboxCol {
+  padding-top: 39px;
+}
+#cardsRow {
+  padding-top: 35px;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.col-md-3 {
+  padding-bottom: 30px;
+}
+
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
